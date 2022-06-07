@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>뉴스 테이블</title>
+    <style>
+        li{
+            width: 100px;
+            display: inline;
+            padding: 10px 10px 10px 10px;
+        }
+        li:hover{
+            color: red;
+        }
+        a:hover{
+            color: red;
+        }
+        div{
+            border: 3px dashed yellow;
+            color: white;
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        @keyframes news{
+            0%{color: black;}
+            50%{color: gray;}
+            100%{color: white;}
+        }
+        #news{
+            animation-name: news;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            font-size: 70px;
+            
+        }
+        table{
+        border-collapse: collapse;
+        width: 1200px;
+        height: 600px;
+        }
+        tbody tr td:hover{
+        background-color: yellow;
+        }
+        caption{
+            font-size: 30px;
+            color: white;
+        }
+        body{
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <center><h1><span id="news">뉴스 테이블</span></h1></center>
+    <div><strong>
+        <ul>
+        <li> <a href="https://news.naver.com/main/list.naver?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y">오늘의 주요 뉴스</a></li>
+        <li> <a href="https://search.naver.com/search.naver?where=nexearch&sm=top_sug.pre&fbm=1&acr=1&acq=%EC%98%A4%EB%8A%98%EC%9D%98+%EB%82%A0&qdt=0&ie=utf8&query=%EC%98%A4%EB%8A%98%EC%9D%98+%EB%82%A0%EC%94%A8">오늘의 날씨</a></li>
+        <li> <a href="https://finance.naver.com/">오늘의 주식</a></li>
+        
+    <li><a href="가입하기.html" >가입하기</a></li>  
+     <li> <a href="로그인.html" >로그인</a></li>
+    </ul>
+</strong>
+</div>
+    
+        <center><table border="1">
+        <pre><caption> <strong>뉴스 스탠드  >>  전체 언론사</strong> </caption>
+        <thead>
+            
+        </thead>
+        <tbody>
+            <tr><td><a href="https://newsstand.naver.com/?list=&pcode=015"><img src="image/1.png" alt="한국경제" width="100%" height="100%"></a></td><td><a href="https://newsstand.naver.com/?list=&pcode=214"><img src="image/2.png" alt="MBC" width="100%" height="100%"></a></td><td><a href="https://newsstand.naver.com/?list=&pcode=344"><img src="image/3.png" alt="EBS" width="100%" height="100%"></a></td></tr>
+            <tr><td><a href="https://newsstand.naver.com/?list=&pcode=120"><img src="image/4.png" alt="EBN" width="100%" height="100%"></a><td><a href="https://newsstand.naver.com/?list=&pcode=020"><img src="image/5.png" alt="동아일보" width="100%" height="100%"></a></td><td><a href="https://newsstand.naver.com/?list=&pcode=326.html"><img src="image/6.png" alt="KBS" width="100%" height="100%"></a></td></td></tr>
+        </tbody>
+        
+        </table>
+    </center>
+    
+</body>
+</html>
